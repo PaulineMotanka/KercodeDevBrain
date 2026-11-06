@@ -1,3 +1,11 @@
+Cours de Pierre Giraud sur JS:
+https://www.pierre-giraud.com/javascript-apprendre-coder-cours/
+
+Apprendre JS:
+https://grafikart.fr/formations/formation-javascript
+
+About JS:
+https://fr.javascript.info/
 
 Site officiel Git:
 https://git-scm.com/

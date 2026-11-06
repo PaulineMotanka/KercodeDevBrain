@@ -140,7 +140,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 228.1640625
   },
   "right": {
     "id": "2497e49e6182f39c",
@@ -246,27 +246,28 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "1bb21b993d1cf06c",
+  "active": "0c826907b1dc8319",
   "lastOpenFiles": [
-    "file:/home/kerx02/Pauline/Obsidian/README.md",
+    "ALGO ET JS/Scratch.pdf",
+    "ALGO ET JS/Javascript-01-les_bases.pdf",
+    "ALGO ET JS/Algo&JS_Activité.pdf",
     "GIT & GIT HUB/GIT_Commandes.md",
+    "ALGO ET JS",
+    "GIT & GIT HUB/Résumé utilisation GIT.pdf",
+    "Ressources.md",
+    "file:/home/kerx02/Pauline/Obsidian/README.md",
     "GIT & GIT HUB/Git_GitHub_part1.pdf",
     "GIT & GIT HUB/GIT&H_Introduction.md",
-    "GIT & GIT HUB/Résumé utilisation GIT.pdf",
     "GIT & GIT HUB/Les bases de Git.pdf",
     "LINUX/Linux_Introduction.md",
     "LINUX/Linux_Intro.pdf",
     "LINUX/Aide-memoire-commande-Linux.pdf",
-    "Ressources.md",
     "LINUX/Linux_Commandes.md",
     "CSS/Propriétés CSS.md",
     "HTML/Glossaire des balises HTML.pdf",
     "HTML/Fiche HTML et CSS.md",
     "HTML/Balises HTML.md",
     "CSS/Glossaire des propriétés CSS.pdf",
-    "HTML/Fiche HTML + CSS.pdf",
-    "CSS",
-    "PDF",
     "Sans titre.canvas",
     "créez un lien.md",
     "Bienvenue.md",
