@@ -1,8 +1,20 @@
 
+Site officiel Git:
+https://git-scm.com/
+
+Cours et tutoriels Git
+https://www.atlassian.com/fr/git
+
+Apprendre à utiliser Git et Github
+https://www.pierre-giraud.com/git-github-apprendre-cours/
+
 Emmet
 https://code.visualstudio.com/docs/languages/emmet
 
+à propos de Linux: 
+https://labex.io/fr/linuxjourney
 
+Ressources dev:
 https://developer.mozilla.org/fr/
 
 Editeur [Markdown] en ligne
@@ -57,3 +69,4 @@ Visualiser une expression Regex [https://regexper.com/](https://regexper.com/ "h
 
 jeux: 
 https://www.codewars.com/
+

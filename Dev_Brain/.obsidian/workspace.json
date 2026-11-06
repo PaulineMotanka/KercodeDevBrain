@@ -34,9 +34,51 @@
               "icon": "lucide-file",
               "title": "GIT_Commandes"
             }
+          },
+          {
+            "id": "afe4b0077cca03a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "file:/home/kerx02/Pauline/Obsidian/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "b5d63d4c7288b8bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "file:/home/kerx02/Pauline/Obsidian/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "1bb21b993d1cf06c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ressources.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ressources"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -204,8 +246,10 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "0d8ba0b2b2757cb1",
+  "active": "1bb21b993d1cf06c",
   "lastOpenFiles": [
+    "file:/home/kerx02/Pauline/Obsidian/README.md",
+    "GIT & GIT HUB/GIT_Commandes.md",
     "GIT & GIT HUB/Git_GitHub_part1.pdf",
     "GIT & GIT HUB/GIT&H_Introduction.md",
     "GIT & GIT HUB/Résumé utilisation GIT.pdf",
@@ -219,8 +263,6 @@
     "HTML/Glossaire des balises HTML.pdf",
     "HTML/Fiche HTML et CSS.md",
     "HTML/Balises HTML.md",
-    "GIT & GIT HUB/GIT_Commandes.md",
-    "file:/home/kerx02/Pauline/Obsidian/README.md",
     "CSS/Glossaire des propriétés CSS.pdf",
     "HTML/Fiche HTML + CSS.pdf",
     "CSS",
