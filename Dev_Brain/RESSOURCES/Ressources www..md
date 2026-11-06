@@ -1,3 +1,5 @@
+
+
 Cours de Pierre Giraud sur JS:
 https://www.pierre-giraud.com/javascript-apprendre-coder-cours/
 
@@ -7,6 +9,12 @@ https://grafikart.fr/formations/formation-javascript
 About JS:
 https://fr.javascript.info/
 
+JS for kids:
+https://jsforkids.com/
+
+Référence HTML/CSS/ JS:
+https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
+
 Site officiel Git:
 https://git-scm.com/
 
@@ -15,6 +23,9 @@ https://www.atlassian.com/fr/git
 
 Apprendre à utiliser Git et Github
 https://www.pierre-giraud.com/git-github-apprendre-cours/
+
+Jeu pour apprendre les branches Git:
+https://learngitbranching.js.org/?locale=fr_FR
 
 Emmet
 https://code.visualstudio.com/docs/languages/emmet
