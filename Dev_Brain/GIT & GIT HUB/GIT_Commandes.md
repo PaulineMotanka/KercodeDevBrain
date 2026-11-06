@@ -33,3 +33,4 @@
 | git restore --staged <fichier>       | Retirer un fichier du add                              |
 | git commit --amend -m "msg"          | Corriger le dernier commit (avant push)                |
 | git stash / git stash pop            | Mettre le travail de côté / le récupérer               |
++ après clonage, créer un repo sur github puis commande git remote set-url origin <url repo>  puis commande git push
