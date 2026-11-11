@@ -13,15 +13,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GIT & GIT HUB/GIT_Commandes.md",
+                "file": "ZZ_RESSOURCES/all RESSOURCES.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GIT_Commandes"
+              "title": "all RESSOURCES"
+            }
+          },
+          {
+            "id": "e2d8f128fce2627b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LINUX/<>Linux_Cours-Fiche.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "<>Linux_Cours-Fiche"
+            }
+          },
+          {
+            "id": "cb9bb772276b72d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ALGO ET JS/ALGO ET JS Partie 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ALGO ET JS Partie 3"
+            }
+          },
+          {
+            "id": "c56d845bfa486051",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ALGO ET JS/<>Algo&JS_Cours-Fiche.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "<>Algo&JS_Cours-Fiche"
+            }
+          },
+          {
+            "id": "a1494124e8b9c976",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ALGO ET JS/ALGO ET JS Partie 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ALGO ET JS Partie 3"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -47,6 +104,20 @@
               },
               "icon": "lucide-folder-closed",
               "title": "Explorateur de fichiers"
+            }
+          },
+          {
+            "id": "acd8af512ce765bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "file:/home/kerx02/Téléchargements/Fiche_Git_et_GitHub(1).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fiche_Git_et_GitHub(1)"
             }
           },
           {
@@ -189,44 +260,44 @@
       "templates:Insérer le modèle": false
     }
   },
-  "active": "2fd0f6e039e3cfbd",
+  "active": "a1494124e8b9c976",
   "lastOpenFiles": [
-    "RESSOURCES.md",
-    "ZZ_RESSOURCES/@ Linux et environnement.md",
+    "ALGO ET JS/ALGO ET JS Parties 1et 2 notes à reprendre.md",
+    "ALGO ET JS/ALGO ET JS Partie 3.md",
+    "ALGO ET JS/<> Algo.md",
+    "file:/home/kerx02/Téléchargements/<>Fiche - Les algorithmes (vulgarisation).md",
+    "ALGO ET JS/<>Algo&JS_Cours-Fiche.md",
+    "TO DO.md",
+    "Trucs.md",
+    "file:/home/kerx02/Téléchargements/Fiche - Algo et JavaScript (bases).md",
+    "GIT & GIT HUB/<>Git et GitHub_Cours-Fiche.md",
+    "LINUX/<>Linux_Cours-Fiche.md",
+    "ZZ_RESSOURCES/@UX&UI et ressources graphiques.md",
     "ZZ_RESSOURCES/@Git & Github.md",
     "ZZ_RESSOURCES/@JavaScript.md",
-    "@HTML & CSS.md",
-    "TO DO.md",
-    "RESSOURCES/Ressources autres.md",
-    "RESSOURCES/Ressources www..md",
-    "Trucs.md",
-    "LINUX/Linux_Memo_pdf.pdf",
-    "LINUX/Linux_Cours-Fiche.md",
-    "LINUX/Linux_memo_commandes.md",
-    "Linux-memo-commandes.md",
-    "file:/home/kerx02/Téléchargements/Linux-fiche-cours.md",
-    "LINUX/Linux_Cours_Synthèse.md",
-    "LINUX/Linux_Cours.pdf",
-    "file:/home/kerx02/Téléchargements/Linux-memo-commandes(1).md",
-    "ALGO ET JS/ALGO ET JS Parties 1et 2 notes à reprendre.md",
-    "ALGO ET JS/JS_Partie2_Correction-exos.pdf",
-    "ALGO ET JS/ALGO ET JS Partie 3.md",
+    "file:/home/kerx02/Téléchargements/Fiche_Git_et_GitHub(2).md",
+    "GIT & GIT HUB/GIT_Commandes.md",
+    "file:/home/kerx02/Téléchargements/Fiche_Git_et_GitHub(1).md",
+    "GIT & GIT HUB/Résumé utilisation GIT.pdf",
+    "GIT & GIT HUB/Les bases de Git.pdf",
     "ALGO ET JS/JS_Les_bases.pdf",
     "ALGO ET JS/JS_Partie1_Activité.pdf",
-    "ALGO ET JS/Algo&JS_Activité.pdf",
-    "2026-11-09.md",
-    "ALGO ET JS/Scratch.pdf",
-    "ALGO ET JS/Sans titre.base",
-    "! Quêtes.md",
-    "file:/home/kerx02/Pauline/Obsidian/README.md",
-    "GIT & GIT HUB/GIT_Commandes.md",
-    "ZZ_RESSOURCES",
-    "ALGO ET JS",
-    "GIT & GIT HUB/GIT&H_Introduction.md",
-    "LINUX/Linux_Introduction.md",
-    "LINUX/Linux_Commandes.md",
-    "CSS/Propriétés CSS.md",
-    "HTML/Fiche HTML et CSS.md",
+    "ALGO ET JS/JS_Partie2_Correction-exos.pdf",
+    "CSS/Glossaire des propriétés CSS.pdf",
+    "GIT & GIT HUB/Git_GitHub_part1.pdf",
+    "ZZ_RESSOURCES/all RESSOURCES.md",
+    "Sans titre 1.md",
+    "ZZ_RESSOURCES/@Livres et supports d'apprentissage.md",
+    "ZZ_RESSOURCES/@Jeux et exercices pour apprendre à coder.md",
+    "ZZ_RESSOURCES/@Expressions régulières (Regex).md",
+    "ZZ_RESSOURCES/@Markdown et documentation.md",
+    "ZZ_RESSOURCES/@HTML & CSS.md",
+    "ZZ_RESSOURCES/@ Linux et environnement.md",
+    "HTML/Glossaire des balises HTML.pdf",
+    "HTML/Fiche HTML + CSS.pdf",
+    "RESSOURCES/Ressources autres.md",
+    "RESSOURCES/Ressources www..md",
+    "LINUX/Linux_Memo_pdf.pdf",
     "Sans titre.canvas"
   ]
 }
