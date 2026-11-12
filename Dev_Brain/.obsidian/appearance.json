@@ -1,3 +1,8 @@
 {
-  "cssTheme": ""
+  "cssTheme": "Pink Muted Rose",
+  "theme": "obsidian",
+  "accentColor": "#e665b7",
+  "enabledCssSnippets": [
+    "pink_editorial"
+  ]
 }

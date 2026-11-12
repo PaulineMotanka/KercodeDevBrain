@@ -118,12 +118,12 @@ git push
 ```
 
 ## Choix du protocole d'accès
-| | HTTPS | SSH |
-|---|---|---|
-| Lien | `https://github.com/compte/projet.git` | `git@github.com:compte/projet.git` |
-| Configuration | aucune | création de clés SSH |
-| À l'usage | identification à chaque push | confortable, plus sécurisé |
-| Tendance | en voie de disparition | recommandé |
+|               | HTTPS                                  | SSH                                |
+| ------------- | -------------------------------------- | ---------------------------------- |
+| Lien          | `https://github.com/compte/projet.git` | `git@github.com:compte/projet.git` |
+| Configuration | aucune                                 | création de clés SSH               |
+| À l'usage     | identification à chaque push           | confortable, plus sécurisé         |
+| Tendance      | en voie de disparition                 | recommandé                         |
 
 ## Les 4 états d'un fichier
 ```mermaid

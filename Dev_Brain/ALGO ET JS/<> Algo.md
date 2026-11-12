@@ -45,19 +45,19 @@ Ces trois exemples contiennent déjà tout ce qu'il y a à savoir : des **étape
 
 ## 2. Définitions clés
 
-| Terme | Définition simple |
-|---|---|
-| **Algorithme** | Suite d'instructions précises, dans l'ordre, qui résout un problème |
-| **Instruction** | Une seule action à faire (une ligne = une instruction) |
-| **Entrée** | Ce que l'algorithme reçoit au départ (l'âge saisi, les ingrédients) |
-| **Traitement** | Ce qu'il fait avec (calculs, comparaisons) |
-| **Sortie** | Le résultat qu'il donne (un message, un prix) |
-| **Variable** | Une boîte étiquetée qui garde une valeur (voir [[Fiche - Algo et JavaScript (bases)]]) |
-| **Condition** | Un choix : « si... sinon... » |
-| **Boucle** | Une répétition : « tant que... » ou « pour chaque... » |
-| **Fonction** | Un bout d'algorithme avec un nom, que je peux réutiliser |
-| **Pseudo-code** | L'algorithme écrit en français, sans langage de programmation |
-| **Organigramme** | L'algorithme dessiné avec des formes et des flèches |
+| Terme            | Définition simple                                                                      |
+| ---------------- | -------------------------------------------------------------------------------------- |
+| **Algorithme**   | Suite d'instructions précises, dans l'ordre, qui résout un problème                    |
+| **Instruction**  | Une seule action à faire (une ligne = une instruction)                                 |
+| **Entrée**       | Ce que l'algorithme reçoit au départ (l'âge saisi, les ingrédients)                    |
+| **Traitement**   | Ce qu'il fait avec (calculs, comparaisons)                                             |
+| **Sortie**       | Le résultat qu'il donne (un message, un prix)                                          |
+| **Variable**     | Une boîte étiquetée qui garde une valeur (voir [[Fiche - Algo et JavaScript (bases)]]) |
+| **Condition**    | Un choix : « si... sinon... »                                                          |
+| **Boucle**       | Une répétition : « tant que... » ou « pour chaque... »                                 |
+| **Fonction**     | Un bout d'algorithme avec un nom, que je peux réutiliser                               |
+| **Pseudo-code**  | L'algorithme écrit en français, sans langage de programmation                          |
+| **Organigramme** | L'algorithme dessiné avec des formes et des flèches                                    |
 
 ---
 
@@ -126,6 +126,7 @@ for (let i = 1; i <= 3; i++) {
 ```
 
 (Les boucles seront étudiées plus tard dans la formation : ici je retiens simplement l'idée.)
+### Dans cette partie, tu as mentionné que tu retiens juste l'idée mais tu devrais quand meme préciser qu'il y a 2 types de boucles : Celle ou l'on connait le nombre d'itérations (for ....) Et celle ou on connait pas le nbr d'it (while ....)
 
 ---
 

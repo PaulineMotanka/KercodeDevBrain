@@ -1,0 +1,355 @@
+
+/* ==========================================
+   PINK EDITORIAL — GOLD DETAILS
+   Obsidian custom theme
+   ========================================== */
+
+/* 1. PALETTE ET VARIABLES GLOBALES */
+
+.theme-light {
+  color-scheme: light;
+
+  --background-primary: #FBEFF3;
+  --background-primary-alt: #F6E4EB;
+  --background-secondary: #F5E3EA;
+  --background-secondary-alt: #F0DCE5;
+  --background-modifier-border: #E4C4D1;
+  --background-modifier-hover: #EFD4DF;
+  --background-modifier-active-hover: #E9C6D5;
+
+  --text-normal: #171317;
+  --text-muted: #393239;
+  --text-faint: #66535E;
+  --text-on-accent: #FFFFFF;
+
+  --interactive-normal: #E8AFC3;
+  --interactive-hover: #D85B91;
+  --interactive-accent: #D85B91;
+  --interactive-accent-hover: #BD3D78;
+
+  --accent-h: 334;
+  --accent-s: 63%;
+  --accent-l: 61%;
+
+  --text-accent: #C94783;
+  --text-accent-hover: #A92F69;
+
+  --color-base-00: #FBEFF3;
+  --color-base-05: #F8EAF0;
+  --color-base-10: #F5E3EA;
+  --color-base-20: #EFD4DF;
+  --color-base-25: #E8C6D5;
+  --color-base-30: #E4C4D1;
+  --color-base-35: #DDB3C4;
+  --color-base-40: #CFA2B6;
+  --color-base-50: #A98697;
+  --color-base-60: #806675;
+  --color-base-70: #55434E;
+  --color-base-100: #171317;
+
+  --gold: #B68B45;
+  --pink: #D85B91;
+  --pink-soft: #E8AFC3;
+  --pink-pale: #FBEFF3;
+  --black: #171317;
+
+  --background-modifier-box-shadow:
+    0 4px 14px rgba(80, 30, 55, 0.08);
+}
+
+/* 2. INTERFACE GÉNÉRALE */
+
+body,
+.app-container {
+  background-color: var(--background-primary);
+  color: #171317;
+}
+
+.workspace,
+.workspace-split,
+.workspace-tabs,
+.workspace-tab-container {
+  background-color: var(--background-primary);
+  color: #171317;
+}
+
+/* Tout le texte de l'interface en noir */
+
+body,
+body *,
+.workspace,
+.workspace *,
+.modal,
+.modal *,
+.menu,
+.menu *,
+.setting-item,
+.setting-item *,
+.nav-file-title,
+.nav-folder-title,
+.workspace-tab-header,
+.status-bar,
+.side-dock-ribbon,
+.prompt,
+.suggestion-item {
+  color: #171317;
+}
+
+/* 3. EXPLORATEUR DE FICHIERS */
+
+.nav-file-title,
+.nav-folder-title {
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.nav-file-title:hover,
+.nav-folder-title:hover {
+  background-color: #F0D4E0;
+}
+
+.nav-file-title.is-active,
+.nav-folder-title.is-active {
+  background-color: #E8AFC3;
+  font-weight: 700;
+}
+
+.nav-folder-title {
+  font-weight: 600;
+}
+
+/* Icônes */
+
+.clickable-icon,
+svg.svg-icon {
+  color: #B68B45;
+}
+
+.clickable-icon:hover {
+  color: #D85B91;
+}
+
+/* 4. ONGLETS */
+
+.workspace-tab-header {
+  background-color: #F5E3EA;
+}
+
+.workspace-tab-header.is-active {
+  background-color: #FBEFF3;
+  border-bottom: 2px solid #D85B91;
+}
+
+.workspace-tab-header:hover {
+  background-color: #EFD4DF;
+}
+
+/* 5. MENUS ET PARAMÈTRES */
+
+.menu,
+.modal,
+.prompt,
+.suggestion-container {
+  background-color: #F8EAF0;
+  border: 1px solid #D8B2C1;
+  box-shadow: 0 5px 20px rgba(60, 20, 40, 0.10);
+}
+
+.menu-item:hover,
+.suggestion-item.is-selected {
+  background-color: #E8AFC3;
+}
+
+.setting-item {
+  border-color: #E4C4D1;
+}
+
+.setting-item-heading {
+  color: #C94783;
+}
+
+/* 6. ÉDITEUR ET NOTES */
+
+.markdown-source-view,
+.markdown-preview-view {
+  color: #171317;
+}
+
+.cm-content,
+.cm-line,
+.markdown-preview-view p,
+.markdown-preview-view li {
+  color: #171317;
+}
+
+/* 7. TITRES */
+
+.markdown-preview-view h1,
+.cm-header-1 {
+  color: #C94783;
+  font-weight: 750;
+}
+
+.markdown-preview-view h2,
+.cm-header-2 {
+  color: #D85B91;
+  font-weight: 700;
+}
+
+.markdown-preview-view h3,
+.cm-header-3 {
+  color: #B94C7D;
+  font-weight: 650;
+}
+
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+  color: #171317;
+}
+
+/* 8. LIENS ET MISE EN VALEUR */
+
+.markdown-preview-view a,
+.cm-link,
+.cm-hmd-internal-link,
+.internal-link {
+  color: #C94783;
+}
+
+.markdown-preview-view a:hover,
+.internal-link:hover {
+  color: #A92F69;
+}
+
+.markdown-preview-view strong,
+.cm-strong {
+  color: #171317;
+  font-weight: 750;
+}
+
+.markdown-preview-view em,
+.cm-em {
+  color: #9B7139;
+}
+
+/* 9. TABLEAUX */
+
+.markdown-preview-view table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.markdown-preview-view th {
+  background-color: #E8AFC3;
+  color: #171317;
+  font-weight: 700;
+  border: 1px solid #D8B2C1;
+}
+
+.markdown-preview-view td {
+  background-color: #FBEFF3;
+  color: #171317;
+  border: 1px solid #E4C4D1;
+}
+
+.markdown-preview-view tr:nth-child(even) td {
+  background-color: #F5E3EA;
+}
+
+/* 10. BLOCS DE CITATION */
+
+.markdown-preview-view blockquote {
+  border-left: 3px solid #B68B45;
+  background-color: #F5E3EA;
+  color: #171317;
+  padding: 12px 16px;
+}
+
+/* 11. BLOCS DE CODE */
+
+.markdown-preview-view pre,
+.markdown-source-view .HyperMD-codeblock {
+  background-color: #F0DCE5;
+  border: 1px solid #E4C4D1;
+  border-radius: 8px;
+}
+
+.markdown-preview-view code {
+  background-color: #F0DCE5;
+  color: #A92F69;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+.markdown-preview-view pre code {
+  color: #171317;
+}
+
+/* 12. CALLOUTS */
+
+.callout {
+  background-color: #F5E3EA;
+  border: 1px solid #E4C4D1;
+  border-left: 3px solid #D85B91;
+  border-radius: 8px;
+}
+
+.callout-title {
+  color: #C94783;
+}
+
+/* 13. SÉLECTION ET CURSEUR */
+
+::selection {
+  background-color: #E8AFC3;
+  color: #171317;
+}
+
+.cm-cursor {
+  border-left-color: #D85B91;
+}
+
+/* 14. BARRE DE STATUT */
+
+.status-bar {
+  background-color: #F5E3EA;
+  border-top: 1px solid #D8B2C1;
+}
+
+/* 15. CASES À COCHER */
+
+.markdown-preview-view input[type="checkbox"] {
+  accent-color: #D85B91;
+}
+
+/* 16. SÉPARATEURS */
+
+.markdown-preview-view hr {
+  border-color: #B68B45;
+}
+
+/* 17. BOUTONS */
+
+button {
+  color: #171317;
+  border-color: #D8B2C1;
+}
+
+button:hover {
+  background-color: #E8AFC3;
+}
+
+/* 18. BARRE DE RECHERCHE */
+
+input,
+textarea {
+  color: #171317;
+  background-color: #FBEFF3;
+  border-color: #D8B2C1;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #D85B91;
+}
