@@ -182,5 +182,5 @@ Cause : la même partie du même fichier a été modifiée différemment dans le
 
 
 ## Liens
-[[Linux commandes de base]] · [[Markdown]] · [[Mermaid]] · [[Branches Git (partie 2)]] · [[Pull request]]
+[[Linux commandes de base]] · [[<>Markdown]] · [[Mermaid]] · [[Branches Git (partie 2)]] · [[Pull request]]
 

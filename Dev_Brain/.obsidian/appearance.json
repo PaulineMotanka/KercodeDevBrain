@@ -1,6 +1,7 @@
 {
   "cssTheme": "Pink Muted Rose",
   "theme": "obsidian",
-  "accentColor": "#e665b7",
-  "enabledCssSnippets": []
+  "accentColor": "#080808",
+  "enabledCssSnippets": [],
+  "showRibbon": true
 }
