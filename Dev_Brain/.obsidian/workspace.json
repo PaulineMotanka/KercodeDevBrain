@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LINUX/Linux_memo_commandes.md",
+                "file": "TO DO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux_memo_commandes"
+              "title": "TO DO"
+            }
+          },
+          {
+            "id": "2cfbd70a2357433f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "*DWFS G°/PLANNING_DWFS_20260911-vTB (7).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "PLANNING_DWFS_20260911-vTB (7)"
             }
           }
         ]
@@ -205,24 +217,28 @@
   },
   "active": "ca87162ccda3f50a",
   "lastOpenFiles": [
-    "2026-11-12 CDC.md",
+    "ZZ_RESSOURCES/all RESSOURCES.md",
+    "notes.md",
+    "CDC - brief 3 Artisans Local.md",
+    "ZZ_RESSOURCES/@ Linux et environnement.md",
+    "CAHIER DES CHARGES/2026-11-12 CDC.md",
+    "CAHIER DES CHARGES/5 brief_exo.pdf",
+    "*DWFS G°/PLANNING_DWFS_20260911-vTB (7).pdf",
+    "CAHIER DES CHARGES/CDC_cours_analyse.pdf",
     "ALGO ET JS/<> Algo.md",
+    "ALGO ET JS/JS_Partie3_Chaînes, tableaux et boucles.pdf",
+    "TO DO.md",
+    "CAHIER DES CHARGES",
+    "*DWFS G°",
+    "LINUX/Linux_memo_commandes.md",
     "ALGO ET JS/<>Algo&JS_Cours-Fiche.md",
     "GIT & GIT HUB/<>Git et GitHub_Cours-Fiche.md",
-    "PLANNING_DWFS_20260911-vTB (7).pdf",
-    "TO DO.md",
     "LINUX/Linux_Memo_pdf.pdf",
-    "LINUX/Linux_memo_commandes.md",
     "LINUX/<>Linux_Cours-Fiche.md",
     "HTML/Glossaire des balises HTML.pdf",
     "HTML/Fiche HTML + CSS.pdf",
     "GIT & GIT HUB/Résumé utilisation GIT.pdf",
-    "GIT & GIT HUB/Les bases de Git.pdf",
-    "GIT & GIT HUB/Git_GitHub_part1.pdf",
     "GIT & GIT HUB/GIT_Commandes.md",
-    "CSS/Glossaire des propriétés CSS.pdf",
-    "ALGO ET JS/JS_Partie1_Activité.pdf",
-    "ALGO ET JS/JS_Les_bases.pdf",
     "ALGO ET JS/ALGO ET JS Partie 3.md",
     "ALGO ET JS/ALGO ET JS Parties 1et 2 notes à reprendre.md",
     "file:/home/kerx02/Téléchargements/<>Fiche - Les algorithmes (vulgarisation).md",
@@ -233,13 +249,9 @@
     "ZZ_RESSOURCES/@JavaScript.md",
     "file:/home/kerx02/Téléchargements/Fiche_Git_et_GitHub(2).md",
     "file:/home/kerx02/Téléchargements/Fiche_Git_et_GitHub(1).md",
-    "ZZ_RESSOURCES/all RESSOURCES.md",
     "Sans titre 1.md",
     "ZZ_RESSOURCES/@Livres et supports d'apprentissage.md",
     "ZZ_RESSOURCES/@Jeux et exercices pour apprendre à coder.md",
-    "ZZ_RESSOURCES/@Expressions régulières (Regex).md",
-    "ZZ_RESSOURCES/@Markdown et documentation.md",
-    "ZZ_RESSOURCES/@HTML & CSS.md",
     "Sans titre.canvas"
   ]
 }

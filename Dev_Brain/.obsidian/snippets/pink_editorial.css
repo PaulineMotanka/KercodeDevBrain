@@ -1,355 +1,335 @@
 
 /* ==========================================
-   PINK EDITORIAL — GOLD DETAILS
+   PINK EDITORIAL – GOLD DETAILS
    Obsidian custom theme
    ========================================== */
 
-/* 1. PALETTE ET VARIABLES GLOBALES */
+
+/* ------------------------------------------
+   1. PALETTE GÉNÉRALE
+   ------------------------------------------ */
 
 .theme-light {
-  color-scheme: light;
+  --background-primary: #FFF5F8;
+  --background-primary-alt: #FFF0F5;
+  --background-secondary: #FCEEF3;
+  --background-secondary-alt: #F8E7ED;
 
-  --background-primary: #FBEFF3;
-  --background-primary-alt: #F6E4EB;
-  --background-secondary: #F5E3EA;
-  --background-secondary-alt: #F0DCE5;
-  --background-modifier-border: #E4C4D1;
-  --background-modifier-hover: #EFD4DF;
-  --background-modifier-active-hover: #E9C6D5;
+  --background-modifier-border: #E8C5D3;
+  --background-modifier-hover: #F8DCE8;
+  --background-modifier-active-hover: #F3D0DF;
 
   --text-normal: #171317;
-  --text-muted: #393239;
-  --text-faint: #66535E;
-  --text-on-accent: #FFFFFF;
+  --text-muted: #51434B;
+  --text-faint: #806B76;
 
-  --interactive-normal: #E8AFC3;
-  --interactive-hover: #D85B91;
-  --interactive-accent: #D85B91;
-  --interactive-accent-hover: #BD3D78;
+  --text-accent: #FF1685;
+  --text-accent-hover: #E60070;
 
-  --accent-h: 334;
-  --accent-s: 63%;
-  --accent-l: 61%;
+  --interactive-accent: #FF1685;
+  --interactive-accent-hover: #E60070;
 
-  --text-accent: #C94783;
-  --text-accent-hover: #A92F69;
+  --text-highlight-bg: #FF1685;
+  --text-highlight-fg: #171317;
+  --text-selection: #FF1685;
 
-  --color-base-00: #FBEFF3;
-  --color-base-05: #F8EAF0;
-  --color-base-10: #F5E3EA;
-  --color-base-20: #EFD4DF;
-  --color-base-25: #E8C6D5;
-  --color-base-30: #E4C4D1;
-  --color-base-35: #DDB3C4;
-  --color-base-40: #CFA2B6;
-  --color-base-50: #A98697;
-  --color-base-60: #806675;
-  --color-base-70: #55434E;
-  --color-base-100: #171317;
-
-  --gold: #B68B45;
-  --pink: #D85B91;
-  --pink-soft: #E8AFC3;
-  --pink-pale: #FBEFF3;
+  --pink-barbie: #FF1685;
+  --pink-deep: #E60070;
+  --pink-soft: #FFF5F8;
+  --gold: #C5A15B;
+  --ochre: #94651C;
   --black: #171317;
 
-  --background-modifier-box-shadow:
-    0 4px 14px rgba(80, 30, 55, 0.08);
+  --link-color: #94651C;
+  --link-color-hover: #704A12;
 }
 
-/* 2. INTERFACE GÉNÉRALE */
 
-body,
-.app-container {
-  background-color: var(--background-primary);
-  color: #171317;
-}
+/* ------------------------------------------
+   2. FOND DES PAGES
+   ------------------------------------------ */
 
 .workspace,
-.workspace-split,
-.workspace-tabs,
-.workspace-tab-container {
-  background-color: var(--background-primary);
+.workspace-leaf,
+.workspace-leaf-content,
+.markdown-source-view,
+.markdown-preview-view,
+.markdown-reading-view,
+.view-content {
+  background-color: #FFF5F8;
   color: #171317;
 }
 
-/* Tout le texte de l'interface en noir */
 
-body,
-body *,
-.workspace,
-.workspace *,
-.modal,
-.modal *,
-.menu,
-.menu *,
-.setting-item,
-.setting-item *,
-.nav-file-title,
-.nav-folder-title,
-.workspace-tab-header,
-.status-bar,
-.side-dock-ribbon,
-.prompt,
-.suggestion-item {
-  color: #171317;
+/* ------------------------------------------
+   3. VOLET LATÉRAL NOIR
+   ------------------------------------------ */
+
+.workspace-ribbon,
+.workspace-ribbon.mod-left,
+.workspace-ribbon.mod-right,
+.workspace-split.mod-left-split,
+.workspace-split.mod-right-split,
+.workspace-tabs.mod-left-split,
+.workspace-tabs.mod-right-split {
+  background-color: #171317 !important;
+  color: #FF1685 !important;
 }
 
-/* 3. EXPLORATEUR DE FICHIERS */
+/* Noms des dossiers et fichiers */
 
-.nav-file-title,
-.nav-folder-title {
-  border-radius: 5px;
-  transition: background-color 0.2s ease;
-}
-
-.nav-file-title:hover,
-.nav-folder-title:hover {
-  background-color: #F0D4E0;
-}
-
-.nav-file-title.is-active,
-.nav-folder-title.is-active {
-  background-color: #E8AFC3;
-  font-weight: 700;
-}
-
-.nav-folder-title {
+.workspace-split.mod-left-split .nav-folder-title,
+.workspace-split.mod-left-split .nav-file-title,
+.workspace-split.mod-left-split .nav-folder-title-content,
+.workspace-split.mod-left-split .nav-file-title-content {
+  color: #FF1685 !important;
   font-weight: 600;
 }
 
-/* Icônes */
+/* Survol des fichiers */
 
-.clickable-icon,
-svg.svg-icon {
-  color: #B68B45;
+.workspace-split.mod-left-split .nav-file-title:hover,
+.workspace-split.mod-left-split .nav-folder-title:hover {
+  background-color: #38202D !important;
+  color: #FF78B6 !important;
 }
 
-.clickable-icon:hover {
-  color: #D85B91;
+/* Fichier sélectionné */
+
+.workspace-split.mod-left-split .nav-file-title.is-active {
+  background-color: #4B1932 !important;
+  border-left: 3px solid #C5A15B;
+  color: #FF78B6 !important;
 }
 
-/* 4. ONGLETS */
+/* Icônes du volet */
 
-.workspace-tab-header {
-  background-color: #F5E3EA;
+.workspace-split.mod-left-split .nav-folder-collapse-indicator,
+.workspace-split.mod-left-split .clickable-icon {
+  color: #C5A15B !important;
 }
 
-.workspace-tab-header.is-active {
-  background-color: #FBEFF3;
-  border-bottom: 2px solid #D85B91;
+.workspace-ribbon .clickable-icon {
+  color: #FF1685 !important;
 }
 
-.workspace-tab-header:hover {
-  background-color: #EFD4DF;
+.workspace-ribbon .clickable-icon:hover {
+  color: #C5A15B !important;
 }
 
-/* 5. MENUS ET PARAMÈTRES */
+/* Séparations dorées */
 
-.menu,
-.modal,
-.prompt,
-.suggestion-container {
-  background-color: #F8EAF0;
-  border: 1px solid #D8B2C1;
-  box-shadow: 0 5px 20px rgba(60, 20, 40, 0.10);
+.workspace-split.mod-left-split,
+.workspace-split.mod-right-split {
+  border-color: #C5A15B !important;
 }
 
-.menu-item:hover,
-.suggestion-item.is-selected {
-  background-color: #E8AFC3;
-}
 
-.setting-item {
-  border-color: #E4C4D1;
-}
-
-.setting-item-heading {
-  color: #C94783;
-}
-
-/* 6. ÉDITEUR ET NOTES */
-
-.markdown-source-view,
-.markdown-preview-view {
-  color: #171317;
-}
-
-.cm-content,
-.cm-line,
-.markdown-preview-view p,
-.markdown-preview-view li {
-  color: #171317;
-}
-
-/* 7. TITRES */
+/* ------------------------------------------
+   4. TITRES
+   ------------------------------------------ */
 
 .markdown-preview-view h1,
 .cm-header-1 {
-  color: #C94783;
-  font-weight: 750;
+  color: #E60070 !important;
 }
 
 .markdown-preview-view h2,
 .cm-header-2 {
-  color: #D85B91;
-  font-weight: 700;
+  color: #FF1685 !important;
 }
 
 .markdown-preview-view h3,
 .cm-header-3 {
-  color: #B94C7D;
-  font-weight: 650;
+  color: #D90068 !important;
 }
 
 .markdown-preview-view h4,
 .markdown-preview-view h5,
 .markdown-preview-view h6 {
-  color: #171317;
+  color: #94651C !important;
 }
 
-/* 8. LIENS ET MISE EN VALEUR */
+
+/* ------------------------------------------
+   5. LIENS DORÉS / OCRE
+   ------------------------------------------ */
 
 .markdown-preview-view a,
-.cm-link,
-.cm-hmd-internal-link,
-.internal-link {
-  color: #C94783;
+.markdown-preview-view .internal-link,
+.markdown-preview-view .external-link,
+.markdown-source-view .cm-link,
+.markdown-source-view .cm-hmd-internal-link,
+.markdown-source-view .cm-url {
+  color: #94651C !important;
+  text-decoration-color: #C5A15B !important;
+  text-decoration-thickness: 1px;
 }
 
 .markdown-preview-view a:hover,
-.internal-link:hover {
-  color: #A92F69;
+.markdown-preview-view .internal-link:hover,
+.markdown-preview-view .external-link:hover {
+  color: #704A12 !important;
+  text-decoration: underline;
 }
 
-.markdown-preview-view strong,
-.cm-strong {
-  color: #171317;
-  font-weight: 750;
+
+/* ------------------------------------------
+   6. SURLIGNAGE
+   ------------------------------------------ */
+
+.markdown-rendered mark,
+.markdown-source-view mark,
+.cm-highlight {
+  background-color: #FF1685 !important;
+  color: #171317 !important;
+  border-radius: 3px;
+  padding: 1px 3px;
 }
 
-.markdown-preview-view em,
-.cm-em {
-  color: #9B7139;
+
+/* ------------------------------------------
+   7. SÉLECTION DE TEXTE
+   ------------------------------------------ */
+
+/* Sélection générale */
+
+::selection {
+  background-color: #FF1685 !important;
+  color: #171317 !important;
 }
 
-/* 9. TABLEAUX */
+/* Sélection dans l'éditeur Obsidian */
 
-.markdown-preview-view table {
-  border-collapse: collapse;
-  width: 100%;
+.cm-editor .cm-selectionBackground,
+.cm-editor.cm-focused .cm-selectionBackground {
+  background-color: #FF1685 !important;
+  opacity: 1 !important;
 }
+
+.cm-editor .cm-content ::selection,
+.cm-editor .cm-line ::selection {
+  background-color: #FF1685 !important;
+  color: #171317 !important;
+}
+
+
+/* ------------------------------------------
+   8. TABLEAUX
+   ------------------------------------------ */
 
 .markdown-preview-view th {
-  background-color: #E8AFC3;
-  color: #171317;
+  background-color: #FF1685 !important;
+  color: #171317 !important;
   font-weight: 700;
-  border: 1px solid #D8B2C1;
 }
 
 .markdown-preview-view td {
-  background-color: #FBEFF3;
-  color: #171317;
-  border: 1px solid #E4C4D1;
+  background-color: #FFF5F8;
+  color: #171317 !important;
+  border-color: #E8C5D3 !important;
 }
 
 .markdown-preview-view tr:nth-child(even) td {
-  background-color: #F5E3EA;
+  background-color: #FCE8F0;
 }
 
-/* 10. BLOCS DE CITATION */
+
+/* ------------------------------------------
+   9. CITATIONS
+   ------------------------------------------ */
 
 .markdown-preview-view blockquote {
-  border-left: 3px solid #B68B45;
-  background-color: #F5E3EA;
+  background-color: #FCE8F0;
+  border-left: 3px solid #C5A15B;
   color: #171317;
-  padding: 12px 16px;
+  padding: 10px 15px;
 }
 
-/* 11. BLOCS DE CODE */
 
-.markdown-preview-view pre,
-.markdown-source-view .HyperMD-codeblock {
-  background-color: #F0DCE5;
-  border: 1px solid #E4C4D1;
-  border-radius: 8px;
-}
-
-.markdown-preview-view code {
-  background-color: #F0DCE5;
-  color: #A92F69;
-  border-radius: 4px;
-  padding: 2px 4px;
-}
-
-.markdown-preview-view pre code {
-  color: #171317;
-}
-
-/* 12. CALLOUTS */
+/* ------------------------------------------
+   10. CALLOUTS
+   ------------------------------------------ */
 
 .callout {
-  background-color: #F5E3EA;
-  border: 1px solid #E4C4D1;
-  border-left: 3px solid #D85B91;
-  border-radius: 8px;
+  background-color: #FCE8F0;
+  border-left: 3px solid #FF1685;
+  border-radius: 6px;
+  color: #171317;
 }
 
 .callout-title {
-  color: #C94783;
+  color: #E60070;
+  font-weight: 700;
 }
 
-/* 13. SÉLECTION ET CURSEUR */
 
-::selection {
-  background-color: #E8AFC3;
-  color: #171317;
+/* ------------------------------------------
+   11. ONGLETS ET ICÔNES
+   ------------------------------------------ */
+
+.workspace-tab-header.is-active {
+  border-bottom: 2px solid #FF1685;
 }
 
-.cm-cursor {
-  border-left-color: #D85B91;
+.clickable-icon {
+  color: #C5A15B;
 }
 
-/* 14. BARRE DE STATUT */
+.clickable-icon:hover {
+  color: #FF1685;
+}
+
+
+/* ------------------------------------------
+   12. MENUS ET SUGGESTIONS
+   ------------------------------------------ */
+
+.menu-item.is-selected,
+.suggestion-item.is-selected {
+  background-color: #FF1685 !important;
+  color: #171317 !important;
+}
+
+
+/* ------------------------------------------
+   13. BARRE D'ÉTAT
+   ------------------------------------------ */
 
 .status-bar {
-  background-color: #F5E3EA;
-  border-top: 1px solid #D8B2C1;
+  background-color: #171317;
+  color: #FF1685;
 }
 
-/* 15. CASES À COCHER */
-
-.markdown-preview-view input[type="checkbox"] {
-  accent-color: #D85B91;
+.status-bar * {
+  color: #FF1685 !important;
 }
 
-/* 16. SÉPARATEURS */
+
+/* ------------------------------------------
+   14. CODE
+   ------------------------------------------ */
+
+.markdown-rendered code,
+.cm-inline-code {
+  background-color: #F8E1EB;
+  color: #B00055;
+  border-radius: 4px;
+}
+
+.markdown-rendered pre,
+.markdown-source-view pre {
+  background-color: #F8E7ED;
+  border: 1px solid #E8C5D3;
+  border-radius: 6px;
+}
+
+
+/* ------------------------------------------
+   15. SÉPARATEURS
+   ------------------------------------------ */
 
 .markdown-preview-view hr {
-  border-color: #B68B45;
-}
-
-/* 17. BOUTONS */
-
-button {
-  color: #171317;
-  border-color: #D8B2C1;
-}
-
-button:hover {
-  background-color: #E8AFC3;
-}
-
-/* 18. BARRE DE RECHERCHE */
-
-input,
-textarea {
-  color: #171317;
-  background-color: #FBEFF3;
-  border-color: #D8B2C1;
-}
-
-input:focus,
-textarea:focus {
-  border-color: #D85B91;
+  border-color: #C5A15B;
+  opacity: 0.7;
 }
