@@ -25,14 +25,14 @@ HTML = la structure (le squelette), CSS = l'apparence (les vêtements), **JS = l
 
 ### Fiche d'identité
 
-| Caractéristique | Ce que ça veut dire |
-|---|---|
-| Créé en 1995 | Par les créateurs du navigateur Netscape |
-| Langage « standard » | Chrome, Firefox, Safari le comprennent tous, de la même façon. Les standards sont publiés par **ECMA International** |
-| **Dynamique** | Il modifie le HTML / CSS selon des **événements** (un clic) ou des **variables** (la date) |
-| **Interprété** | Pas de traduction préalable en code machine : le navigateur contient un **interpréteur** qui lit et exécute le code directement |
-| **Côté client** (*client side*) | Le serveur envoie le fichier JS, mais il s'exécute **dans le navigateur** du visiteur |
-| Orienté objet | Vu plus loin (section 8) |
+| Caractéristique                 | Ce que ça veut dire                                                                                                             |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Créé en 1995                    | Par les créateurs du navigateur Netscape                                                                                        |
+| Langage « standard »            | Chrome, Firefox, Safari le comprennent tous, de la même façon. Les standards sont publiés par **ECMA International**            |
+| **Dynamique**                   | Il modifie le HTML / CSS selon des **événements** (un clic) ou des **variables** (la date)                                      |
+| **Interprété**                  | Pas de traduction préalable en code machine : le navigateur contient un **interpréteur** qui lit et exécute le code directement |
+| **Côté client** (*client side*) | Le serveur envoie le fichier JS, mais il s'exécute **dans le navigateur** du visiteur                                           |
+| Orienté objet                   | Vu plus loin (section 8)                                                                                                        |
 
 ```mermaid
 sequenceDiagram
@@ -77,11 +77,11 @@ sequenceDiagram
 
 ### Afficher un résultat : trois outils
 
-| Outil | Usage | Exemple |
-|---|---|---|
-| `console.log(x)` | Voir la valeur de `x` dans la console (pour **tester**, invisible du visiteur) | `console.log(age);` |
-| `alert("...")` | Fenêtre pop-up avec un message (message, ou résultat d'une fonction) | `alert("Bienvenue");` |
-| `document.getElementById("id").value` | **Lire** ce qu'un visiteur a saisi dans un champ HTML | voir section 9 |
+| Outil                                 | Usage                                                                          | Exemple               |
+| ------------------------------------- | ------------------------------------------------------------------------------ | --------------------- |
+| `console.log(x)`                      | Voir la valeur de `x` dans la console (pour **tester**, invisible du visiteur) | `console.log(age);`   |
+| `alert("...")`                        | Fenêtre pop-up avec un message (message, ou résultat d'une fonction)           | `alert("Bienvenue");` |
+| `document.getElementById("id").value` | **Lire** ce qu'un visiteur a saisi dans un champ HTML                          | voir section 9        |
 
 ---
 
@@ -161,11 +161,11 @@ console.log(age);        // affiche 26
 
 ### `let`, `var`, `const` : lequel choisir ?
 
-| Mot-clé | Réaffectable ? | Usage aujourd'hui |
-|---|---|---|
-| `let` | **Oui** | Variable normale : **à privilégier** |
-| `var` | Oui | Ancienne façon. Vu dans la partie 1 du cours et Silent Teacher. Comportement de portée moins prévisible : je l'évite dans mon propre code |
-| `const` | **Non** | Valeur fixe : doit recevoir sa valeur **dès la déclaration** et ne change plus |
+| Mot-clé | Réaffectable ? | Usage aujourd'hui                                                                                                                         |
+| ------- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| `let`   | **Oui**        | Variable normale : **à privilégier**                                                                                                      |
+| `var`   | Oui            | Ancienne façon. Vu dans la partie 1 du cours et Silent Teacher. Comportement de portée moins prévisible : je l'évite dans mon propre code |
+| `const` | **Non**        | Valeur fixe : doit recevoir sa valeur **dès la déclaration** et ne change plus                                                            |
 
 ### Constante : convention de nommage
 
@@ -183,11 +183,11 @@ MAJORITY = 21;                // ERREUR : on ne peut pas réaffecter une constan
 
 Un **type primitif** est un type de valeur simple, de base (pas composé d'autres valeurs).
 
-| Type | Définition | Exemple |
-|---|---|---|
-| `string` | **Chaîne de caractères** = du texte, entre guillemets `" "` ou `' '` | `"bonjour"` |
-| `number` | **Nombre**, entier ou décimal | `42`, `3.14` |
-| `boolean` | **Booléen** : seulement deux valeurs, `true` (vrai) ou `false` (faux) | `true` |
+| Type      | Définition                                                            | Exemple      |
+| --------- | --------------------------------------------------------------------- | ------------ |
+| `string`  | **Chaîne de caractères** = du texte, entre guillemets `" "` ou `' '`  | `"bonjour"`  |
+| `number`  | **Nombre**, entier ou décimal                                         | `42`, `3.14` |
+| `boolean` | **Booléen** : seulement deux valeurs, `true` (vrai) ou `false` (faux) | `true`       |
 
 Précisions de vocabulaire (mes termes à définir) :
 
@@ -199,12 +199,12 @@ Pour vérifier le type d'une valeur : `typeof "bonjour"` donne `"string"`.
 
 ### Opérateurs de base
 
-| Opérateur | Rôle | Exemple |
-|---|---|---|
-| `=` | **Affecter** (ranger une valeur dans la boîte) | `a = 5` |
-| `+` | Additionner **des nombres** ou **concaténer** (coller) des chaînes | `2 + 3` donne `5` ; `"a" + "b"` donne `"ab"` |
-| `-` `*` `/` | Soustraction, multiplication, division **décimale** | `5 / 2` donne `2.5` |
-| `%` | **Modulo** : reste de la division entière | `7 % 2` donne `1` |
+| Opérateur   | Rôle                                                               | Exemple                                      |
+| ----------- | ------------------------------------------------------------------ | -------------------------------------------- |
+| `=`         | **Affecter** (ranger une valeur dans la boîte)                     | `a = 5`                                      |
+| `+`         | Additionner **des nombres** ou **concaténer** (coller) des chaînes | `2 + 3` donne `5` ; `"a" + "b"` donne `"ab"` |
+| `-` `*` `/` | Soustraction, multiplication, division **décimale**                | `5 / 2` donne `2.5`                          |
+| `%`         | **Modulo** : reste de la division entière                          | `7 % 2` donne `1`                            |
 
 ```js
 let str = "bonjour";
