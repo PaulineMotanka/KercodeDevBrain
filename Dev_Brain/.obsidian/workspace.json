@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4d8fa469eb759411",
+        "id": "a17d46bcaa20ec51",
         "type": "tabs",
         "children": [
           {
-            "id": "3a713ae2ca885d95",
+            "id": "1f1311c1c56f040e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TO DO.md",
+                "file": "GIT & GIT HUB/<>Git et GitHub_Fiche.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TO DO"
+              "title": "<>Git et GitHub_Fiche"
             }
           }
         ]
@@ -203,43 +203,44 @@
       "templates:Insérer le modèle": false
     }
   },
-  "active": "3a713ae2ca885d95",
+  "active": "1f1311c1c56f040e",
   "lastOpenFiles": [
-    "ALGO ET JS/boite_a_outils_javascript.pdf",
-    "TO DO.md",
+    "ZZ_RESSOURCES/@Git & Github.md",
+    "ZZ_RESSOURCES/@Expressions régulières (Regex).md",
     "ZZ_RESSOURCES/all RESSOURCES.md",
-    "2026-11-17.md",
-    "2026-11-13 JS 3.md",
-    "GIT & GIT HUB/<>Git et GitHub_Fiche.md",
-    "file:/home/kerx02/Pauline/Algo & JS/algo_Js_exos/algo_js_exoFad16112026/algo-JS-part3/README.md",
-    "GIT & GIT HUB/GIT_Commandes.md",
-    "ALGO ET JS/<> Algo.md",
-    "ALGO ET JS/<>Algo&JS_Boucles_Fiche.md",
-    "file:/home/kerx02/Téléchargements/Fiche - JS chaînes, tableaux et boucles.md",
-    "**DWFS G°/Liste_Stages.pdf",
-    "ALGO ET JS/<>Algo&JS_Conditions_Fiche.md",
-    "CSS/<>CSS.md",
-    "CSS/<>Mémo_commandes_CSS.md",
-    "HTML/<>Mémo_balises_HTML.md",
-    "HTML/<> HTML.md",
-    "*AUTRES/<>Markdown.md",
-    "CAHIER DES CHARGES/2026-11-12 CDC.md",
-    "*AUTRES",
-    "CAHIER DES CHARGES/CDC_Exo_12.11.2026.pdf",
-    "CAHIER DES CHARGES/correction_exo_cdc.pdf",
+    "UI & UX/cours_ui_ok.pdf",
     "CAHIER DES CHARGES/CDC_cours_analyse.pdf",
+    "CAHIER DES CHARGES/correction_exo_cdc.pdf",
+    "CAHIER DES CHARGES/CDC_Exo_12.11.2026.pdf",
+    "CAHIER DES CHARGES/2026-11-12 CDC.md",
+    "2026-11-19 Ui & Ux.md",
+    "2026-11-19 - Brief Urgence vet.md",
+    "Sans titre.canvas",
+    "UI & UX/Sans titre.md",
+    "ALGO ET JS/<>Algo&JS_Boucles_Fiche.md",
+    "Urgence Vet projet.md",
+    "ALGO ET JS/<> Algo.md",
+    "JS 20.11.2026.md",
+    "2026-11-18 - OCR JS.md",
+    "ALGO ET JS/<>Algo&JS_Conditions_Fiche.md",
+    "file:/home/kerx02/Pauline/PROJETS/1_UrgenceVet_Exercice_complet.md",
+    "Trame de Soutenance Orale (5 minutes) Projet UrgenceVet.md",
+    "Sans titre",
+    "file:/home/kerx02/Téléchargements/1_UrgenceVet_Exercice_complet.md",
+    "2026-11-13 JS 3.md",
+    "TO DO.md",
     "CAHIER DES CHARGES/<Cdc> Généralités.md",
-    "LINUX/Linux_Memo_pdf.pdf",
-    "LINUX/Linux_memo_commandes.md",
-    "LINUX/<>Linux_Cours.md",
-    "GIT & GIT HUB/Résumé utilisation GIT.pdf",
-    "GIT & GIT HUB/GIT_les bases.pdf",
-    "**DWFS G°/PLANNING_DWFS_20260911-vTB (7).pdf",
-    "notes.md",
-    "CDC - brief 3 Artisans Local.md",
-    "ZZ_RESSOURCES/@ Linux et environnement.md",
-    "ALGO ET JS/ALGO ET JS Parties 1et 2 notes à reprendre.md",
-    "file:/home/kerx02/Téléchargements/<>Fiche - Les algorithmes (vulgarisation).md",
-    "Sans titre.canvas"
+    "UI & UX",
+    "FIGMA/2026-11-17 FIGMA.md",
+    "FIGMA/cours_figma_base_ok.pdf",
+    "ZZ_RESSOURCES/@UX&UI et ressources graphiques.md",
+    "*AUTRES/<>Markdown.md",
+    "ALGO ET JS/boite_a_outils_javascript.pdf",
+    "ALGO ET JS/JS_Les_bases.pdf",
+    "GIT & GIT HUB/<>Git et GitHub_Fiche.md",
+    "GIT & GIT HUB/Git_GitHub_part1.pdf",
+    "GIT & GIT HUB/GIT_Commandes.md",
+    "ZZ_RESSOURCES/@JavaScript.md",
+    "file:/home/kerx02/Pauline/Algo & JS/algo_Js_exos/algo_js_exoFad16112026/algo-JS-part3/README.md"
   ]
 }

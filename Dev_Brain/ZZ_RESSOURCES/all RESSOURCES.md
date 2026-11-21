@@ -8,8 +8,14 @@
 https://getartcraft.com/
 figma https://www.youtube.com/watch?v=d0p3_bucMPI
 
+https://www.visualjs.in/ 
+https://color.adobe.com/fr/create/color-wheel
 
+https://www.codingame.com/start/
 
+https://www.figma.com/fr-fr/resource-library/associations-de-polices/
+
+https://tainix.fr/
 
 
 ##  JavaScript (JS)

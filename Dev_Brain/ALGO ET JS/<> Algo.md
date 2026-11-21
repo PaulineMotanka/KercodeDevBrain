@@ -108,7 +108,7 @@ if (age >= 18) {
 }
 ```
 
-### Brique 3 : la boucle (je répète)
+### Brique 3 : la boucle
 
 ```mermaid
 flowchart TD
@@ -126,7 +126,7 @@ for (let i = 1; i <= 3; i++) {
 ```
 
 (Les boucles seront étudiées plus tard dans la formation : ici je retiens simplement l'idée.)
-### Dans cette partie, tu as mentionné que tu retiens juste l'idée mais tu devrais quand meme préciser qu'il y a 2 types de boucles : Celle ou l'on connait le nombre d'itérations (for ....) Et celle ou on connait pas le nbr d'it (while ....)
+### Il l y a 2 types de boucles : Celle ou l'on connait le nombre d'itérations (for ....) Et celle ou on connait pas le nbr d'it (while ....)
 
 ---
 
