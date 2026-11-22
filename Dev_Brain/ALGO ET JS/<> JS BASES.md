@@ -2,7 +2,7 @@
 tags: [js, algo, debutant, fiche-procedure]
 ---
 
-# JavaScript : bases et logique, mon guide quand je bloque
+# JavaScript : bases et logique
 
 > **Résumé** : en JavaScript, je range des données dans des **variables**, je les regroupe dans des **objets** et des **tableaux**, puis je décide quoi faire avec des **conditions** et je répète avec des **boucles**. Avant d'écrire du code, j'écris les étapes en français : c'est l'**algorithme**. Le code n'est que la traduction de ces étapes.
 
