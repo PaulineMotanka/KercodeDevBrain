@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a17d46bcaa20ec51",
+        "id": "39a36d833fc44055",
         "type": "tabs",
         "children": [
           {
-            "id": "fba8459fd4d7fff8",
+            "id": "1e61497c810368e8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "GIT & GIT HUB/GIT_les bases.pdf"
+                "file": "GIT & GIT HUB/<>Git et GitHub_Fiche.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "GIT_les bases"
+              "icon": "lucide-file",
+              "title": "<>Git et GitHub_Fiche"
             }
           }
         ]
@@ -95,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.1640625
+    "width": 200
   },
   "right": {
     "id": "2497e49e6182f39c",
@@ -201,29 +203,35 @@
       "templates:Insérer le modèle": false
     }
   },
-  "active": "fba8459fd4d7fff8",
+  "active": "1e61497c810368e8",
   "lastOpenFiles": [
+    "2026-11-27JS - les objets.md",
+    "ZZ_RESSOURCES/all RESSOURCES.md",
+    "2026-11-25 -TRE Hervé Basset.md",
+    "**DWFS G°/PLANNING_DWFS_20260911-vTB (7).pdf",
+    "UI & UX/cours_ux_ok.pdf",
+    "UI & UX/cours_ui_ok.pdf",
+    "Brief UrgenceVet.md",
+    "ORAL UI UX.md",
+    "2026-11-24 UX Ergo - Personae.md",
+    "2026-11-24 UX Ergo - Benchmark Ergo et concurentiel.md",
+    "UI & UX/5 autres_brief_exo.pdf",
+    "UI & UX/5 brief_exo.pdf",
+    "GIT & GIT HUB/GIT_les bases.pdf",
     "GIT & GIT HUB/Git_GitHub_part1.pdf",
     "GIT & GIT HUB/<>Git et GitHub_Fiche.md",
     "GIT & GIT HUB/GIT_Commandes.md",
-    "**DWFS G°/PLANNING_DWFS_20260911-vTB (7).pdf",
     "**DWFS G°/Webecom REFERENTIEL Dév Web 2022 V091122 (4).pdf",
     "**DWFS G°/Liste_Stages.pdf",
     "UI & UX/<> UI Design pour évaluation 11.12.2026.md",
     "JS 20.11.2026.md",
     "Sans titre",
-    "UI & UX/cours_ui_ok.pdf",
     "ALGO ET JS/<>Algo&JS_Boucles_Fiche.md",
     "ALGO ET JS/<> JS BASES.md",
-    "FIGMA/cours_figma_base_ok.pdf",
     "FIGMA/<> Figma Boîte à outils (anglais ↔ français).md",
     "file:/home/kerx02/Téléchargements/README.md",
     "ZZ_RESSOURCES/@Git & Github.md",
     "ZZ_RESSOURCES/@Expressions régulières (Regex).md",
-    "ZZ_RESSOURCES/all RESSOURCES.md",
-    "CAHIER DES CHARGES/CDC_cours_analyse.pdf",
-    "CAHIER DES CHARGES/correction_exo_cdc.pdf",
-    "CAHIER DES CHARGES/CDC_Exo_12.11.2026.pdf",
     "CAHIER DES CHARGES/2026-11-12 CDC.md",
     "2026-11-19 Ui & Ux.md",
     "2026-11-19 - Brief Urgence vet.md",
@@ -233,12 +241,6 @@
     "ALGO ET JS/<> Algo.md",
     "ALGO ET JS/<>Algo&JS_Conditions_Fiche.md",
     "file:/home/kerx02/Pauline/PROJETS/1_UrgenceVet_Exercice_complet.md",
-    "Trame de Soutenance Orale (5 minutes) Projet UrgenceVet.md",
-    "file:/home/kerx02/Téléchargements/1_UrgenceVet_Exercice_complet.md",
-    "2026-11-13 JS 3.md",
-    "TO DO.md",
-    "CAHIER DES CHARGES/<Cdc> Généralités.md",
-    "UI & UX",
-    "ZZ_RESSOURCES/@UX&UI et ressources graphiques.md"
+    "Trame de Soutenance Orale (5 minutes) Projet UrgenceVet.md"
   ]
 }

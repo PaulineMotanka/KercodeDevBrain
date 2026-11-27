@@ -17,6 +17,10 @@ https://www.figma.com/fr-fr/resource-library/associations-de-polices/
 
 https://tainix.fr/
 
+typescript
+
+font swipe
+
 
 ##  JavaScript (JS)
 

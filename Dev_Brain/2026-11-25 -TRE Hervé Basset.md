@@ -1,0 +1,5 @@
+ - Pitch 2 minutes
+ -  maj lkd
+ - cv
+ - photo
+ - 
